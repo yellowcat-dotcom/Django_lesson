@@ -24,7 +24,7 @@ class Women(models.Model):
     class Meta:  # класс для настройки админ панели Women
         verbose_name = 'Известные женщины'  # "Известные женщины S"
         verbose_name_plural = 'Известные женщины'  # "Известные женщины"
-        ordering = ['-time_create', 'title']
+        ordering = ['id']
 
 
 class Category(models.Model):
